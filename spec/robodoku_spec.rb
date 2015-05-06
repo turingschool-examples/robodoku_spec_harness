@@ -17,5 +17,9 @@ RSpec.describe "Robodoku" do
     it "solves another easy puzzle" do
       expect(run_puzzle("easy2.txt")).to eq(solution_to("easy2.txt"))
     end
+
+    it "solves a medium puzzle" do
+      expect(run_puzzle("medium.txt")).to eq(solution_to("medium.txt"))
+    end
   end
 end
