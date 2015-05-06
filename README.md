@@ -34,7 +34,7 @@ To test your implementation against the evaluation specs, run:
 
 The spec harness will provide the paths to puzzle source files as
 absolute paths (meaning full paths from the root of the filesystem).
-For this reason, you shoul not try to join or otherwise manipulate
+For this reason, you should not try to join or otherwise manipulate
 these paths.
 
 ### Note on output format
