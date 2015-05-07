@@ -59,3 +59,13 @@ For Example:
 
 The spec harness will attempt to chomp a single newline off the end of
 your output, if one is present.
+
+### Note on puzzle difficulty
+
+The sample puzzles and solutions for this spec harness were culled from
+various online sudoku sites and the labeled difficulties are based on
+how the original sources labeled them.
+
+However what may be difficult for a human solver may not be so difficult
+for a computer, and vice versa. It's entirely possible that certain algorithms
+might breeze through a "hard" puzzle but struggle with a "medium."
